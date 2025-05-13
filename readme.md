@@ -15,8 +15,8 @@ Este es un proyecto de demostración de un agente conversacional llamado **Rocky
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/firulais-agent.git
-cd firulais-agent
+git clone https://github.com/rtelenta/pydantic-agent-demo
+cd pydantic-agent-demo
 ```
 
 2. Crea y activa un entorno virtual:
