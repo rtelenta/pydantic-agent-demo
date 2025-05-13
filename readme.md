@@ -35,13 +35,19 @@ pip install -r requirements.txt
 🏁 Ejecutar el servidor
 
 ```bash
+#ejectuar api con bedrock
 uvicorn main:app --reload
 ```
 
-o
+```bash
+#ejecutar en terminal con bedrock
+python agent.py
+```
 
 ```bash
-python agent.py
+#ejecutar api con groq
+#para este ejemplo solo es necesario tener la key env GROQ_API_KEY
+uvicorn agent_groq:app --reload
 ```
 
 🧪 Ejemplo de uso
